@@ -1,5 +1,5 @@
-import { NgModule, APP_INITIALIZER, Injectable } from '@angular/core';
-import { BrowserModule, Title } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { routing } from './app.routes';
