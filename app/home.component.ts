@@ -7,7 +7,7 @@ import { MyService } from './services/my.service';
     templateUrl: 'home.component.html'
 })
 @MyClass()
-export class HomeComponent {
+export class HomeComponent /*implements OnInit*/ {
 
     // If you try to comment this property, and try to create the property into decorator,
     // AoT mode doesn't work.
